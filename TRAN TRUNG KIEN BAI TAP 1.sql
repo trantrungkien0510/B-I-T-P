@@ -297,14 +297,6 @@ UPDATE `group_acount` SET account_id = 5
 WHERE group_id = 4;
 
 
-# nháp
-SELECT* from `group`;
-SELECT* from `account`;
-select G.* FROM `group` G where group_name like 'vti%';
-
-select * from `group` WHERE creator_id = 5;
-select * from `group` WHERE group_id = 
-(select group_id from `group` where creator_id=5 limit 1);
 
 
 
